@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Html",
+    "icon": "vscode-icons:file-type-html"
+  },
+  {
+    "name": "Css",
+    "icon": "vscode-icons:file-type-css"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "logos:javascript"
+  },
+  {
+    "name": "React",
+    "icon": "logos:react"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "logos:typescript-icon"
+  },
+  {
+    "name": "Vue",
+    "icon": "logos:vue"
+  },
+  {
+    "name": "Nuxt",
+    "icon": "logos:nuxt-icon"
+  },
+  {
+    "name": "Tailwindcss",
+    "icon": "skill-icons:tailwindcss-dark"
+  },
+  {
+    "name": "Bootstrap",
+    "icon": "logos:bootstrap"
+  },
+  {
+    "name": "ShadcnUI",
+    "icon": "simple-icons:shadcnui"
+  },
+  {
+    "name": "Supabase",
+    "icon": "devicon:supabase"
+  },
+  {
+    "name": "Firebase",
+    "icon": "logos:firebase"
+  },
+  {
+    "name": "Vercel",
+    "icon": "skill-icons:vercel-dark"
+  },
+  {
+    "name": "Netlify",
+    "icon": "skill-icons:netlify-dark"
+  },
+  {
+    "name": "Motion Framer",
+    "icon": "tabler:brand-framer-motion"
+  },
+  {
+    "name": "React Icons",
+    "icon": "logos:react-query-icon"
+  },
+  {
+    "name": "Git",
+    "icon": "devicon:git"
+  },
+  {
+    "name": "Github",
+    "icon": "fontisto:github"
+  },
+  {
+    "name": "VS Code",
+    "icon": "skill-icons:vscode-dark"
+  },
+  {
+    "name": "Node.js",
+    "icon": "skill-icons:nodejs-dark"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "skill-icons:mongodb"
+  },
+  {
+    "name": "Express",
+    "icon": "simple-icons:express"
+  },
+  {
+    "name": "Razorpay",
+    "icon": "simple-icons:razorpay"
+  },
+  {
+    "name": "Cloudinary",
+    "icon": "logos:cloudinary-icon"
+  },
+  {
+    "name": "Render",
+    "icon": "simple-icons:render"
+  },
+  {
+    "name": "Hostinger",
+    "icon": "simple-icons:hostinger"
+  },
+  {
+    "name": "JWT",
+    "icon": "logos:jwt"
+  }
+]
