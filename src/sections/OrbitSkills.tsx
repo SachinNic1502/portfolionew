@@ -8,10 +8,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"; // Adjust the path if needed
 
-interface Skill {
-  name: string;
-  icon: string;
-}
+
 
 const generateRadii = (start: number, increment: number, count: number): number[] => {
   return Array.from({ length: count }, (_, index) => start + index * increment);

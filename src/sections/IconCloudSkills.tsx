@@ -1,14 +1,10 @@
 import IconCloud from "@/components/magicui/icon-cloud";
-import skills from '@/data/skills.json'
 const slugs = [
     
     "typescript",
     "javascript",
-    "dart",
     "java",
     "react",
-    "flutter",
-    "android",
     "html5",
     "css3",
     "nodedotjs",
@@ -29,8 +25,6 @@ const slugs = [
     "github",
     "gitlab",
     "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
     "figma",
   ];
 function IconCloudSkills  () {

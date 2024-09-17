@@ -1,4 +1,3 @@
-import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
 
 const testimonials = [
@@ -26,7 +25,14 @@ const testimonials = [
 // Splitting testimonials into two rows for the marquee
 const firstRow = testimonials.slice(0, testimonials.length);
 
-const TestimonialCard = ({ img, name, username, body }) => {
+interface TestimonialCardProps {
+  img: string;
+  name: string;
+  username: string;
+  body: string;
+}
+
+const TestimonialCard: React.FC<TestimonialCardProps> = ({ img, name, username, body }) => {
   return (
     <div className="bg-gray-800 text-white rounded-md mx-auto py-12 px-16 max-w-lg relative">
       <div className="bg-yellow-400 h-1 w-full mb-8 animate-grow"></div>
@@ -43,6 +49,7 @@ const TestimonialCard = ({ img, name, username, body }) => {
     </div>
   );
 };
+
 
 
 function Testimonial() {
