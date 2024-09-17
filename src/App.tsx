@@ -11,24 +11,35 @@ import IconCloudSkills from "@/sections/IconCloudSkills";
 import OrbitSkills from "./sections/OrbitSkills";
 import Testimonial from "./sections/Testimonial";
 // import OrbitSkills from "./sections/OrbitSkills";
+
 export default function App() {
   return (
     <main className="w-full h-auto poppins-regular">
-      <Navbar />
-      <Hero />
-      <About />
+       <div className="space-y-20 md:space-y-0">
+        <Navbar />
+        <Hero />
+        <About />
+      </div>
       {/* <Skills /> */}
-      {/* <OrbitSkills/> */}
-      <div className="flex gap-8 items-center ">
-      <IconCloudSkills />
-      <OrbitSkills />
-    </div>
-      <div className="flex flex-col md:flex-row">
-        <Experience />
-        <Education />
+      {/* <OrbitSkills /> */}
+      <div className="flex flex-col md:flex-row gap-8 items-center mx-4 md:mx-10">
+        <div className="flex-1">
+          <IconCloudSkills />
+        </div>
+        <div className="flex-1">
+          <OrbitSkills />
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row gap-8 mx-4 md:mx-5">
+        <div className="flex-1">
+          <Experience />
+        </div>
+        <div className="flex-1">
+          <Education />
+        </div>
       </div>
       <Projects />
-      <Testimonial/>
+      <Testimonial />
       <Contact />
       <Footer />
     </main>

@@ -10,10 +10,10 @@ export default function Contact() {
       info: "itsachinrathod@gmail.com",
     },
     {
-      href: "tel:+919876543210", // Replace with your actual number
+      href: "tel:+919876543210",
       icon: "mdi:phone",
       label: "Mobile",
-      info: "+91 93099 31886", // Replace with your actual number
+      info: "+91 93099 31886",
     },
     {
       href: "https://github.com/SachinNic1502",
@@ -31,6 +31,7 @@ export default function Contact() {
 
   return (
     <section className="pb-5 w-full bg-gray-950" id="contact">
+      {/* Header Section */}
       <header className="mx-6 pt-6 md:mx-10">
         <h1 className="text-white font-bold text-3xl md:text-5xl">
           Contact
@@ -40,19 +41,23 @@ export default function Contact() {
         </h1>
         <div className="h-1 w-14 rounded-full bg-gradient-to-r from-sky-200 to-blue-400 md:w-20 md:h-2"></div>
       </header>
+
+      {/* Contact Details Section */}
       <div className="mx-6 md:mx-10 mt-5 flex flex-col md:flex-row md:flex-wrap mb-3">
         {contactDetails.map((contact, index) => (
           <SlideAnimation key={index}>
             <a
               href={contact.href}
-              className="flex flex-row text-sky-300 items-center mt-5 mr-5"
+              className="flex flex-row items-center mt-5 mr-5 text-sky-300 transition-transform transform hover:scale-105"
             >
-              <Icon className="h-16 w-16" icon={contact.icon} />
-              <div className="flex flex-col">
-                <h1 className="text-white text-2xl font-bold mx-2">
+              <Icon className="h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16" icon={contact.icon} />
+              <div className="flex flex-col ml-2">
+                <h1 className="text-white text-lg sm:text-xl md:text-2xl font-bold">
                   {contact.label}
                 </h1>
-                <p className="text-gray-400 mx-2">{contact.info}</p>
+                <p className="text-gray-400 text-sm sm:text-md md:text-lg">
+                  {contact.info}
+                </p>
               </div>
             </a>
           </SlideAnimation>
