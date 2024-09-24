@@ -34,12 +34,12 @@ interface TestimonialCardProps {
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ img, name, username, body }) => {
   return (
     <div className="bg-gray-800 text-white rounded-md mx-4 py-6 px-4 md:py-8 md:px-6 max-w-xs md:max-w-md relative">
-      <div className="bg-yellow-400 h-1 w-8 md:w-12 mb-4 md:mb-6 animate-grow"></div>
-      <div className="text-yellow-400 text-xl md:text-2xl absolute left-4 md:left-6 top-4 md:top-8">“</div>
-      <div className="text-yellow-400 text-xl md:text-2xl absolute right-4 md:right-6 top-4 md:top-8">”</div>
+      <div className="bg-blue-400 h-1 w-8 md:w-12 mb-4 md:mb-6 animate-grow"></div>
+      <div className="text-blue-400 text-xl md:text-2xl absolute left-4 md:left-6 top-4 md:top-8">“</div>
+      <div className="text-blue-400 text-xl md:text-2xl absolute right-4 md:right-6 top-4 md:top-8">”</div>
       <p className="text-justify text-xs md:text-base leading-relaxed mb-4 md:mb-6">{body}</p>
       <div className="flex items-center">
-        <img src={img} alt={name} className="rounded-full border-4 border-yellow-400 h-16 w-16 object-cover" />
+        <img src={img} alt={name} className="rounded-full border-4 border-blue-400 h-16 w-16 object-cover" />
         <div className="ml-2 md:ml-4">
           <h4 className="text-base md:text-lg font-bold">{name}</h4>
           <p className="text-xs md:text-sm text-gray-400">{username}</p>
